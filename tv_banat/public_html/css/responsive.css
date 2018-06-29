@@ -245,7 +245,7 @@
     }
     /* moj deo urdjen u css-u*/
     .desc-news{
-        top: 70%;
+        top: 55%;
         right: 10%;
     }
     /* moj deo urdjen u css-u*/
@@ -283,6 +283,13 @@
     .header-right p{
         width: 35%;
     }
+    /* moj deo urdjen u css-u*/
+    .desc-news{
+        top: 70%;
+        right: 10%;
+    }
+    /* moj deo urdjen u css-u*/
+    
 
     footer .social-footer{
         font-size: 1.25rem;
@@ -326,6 +333,12 @@
         padding-top: 5px;
     }
 
+     /* moj deo urdjen u css-u*/
+    .desc-news{
+        top: 75%;
+        right: 10%;
+    }
+    /* moj deo urdjen u css-u*/
     footer .social-footer .fa{
         width: 40px;
         height: 40px;
