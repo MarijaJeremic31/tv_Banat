@@ -126,6 +126,14 @@
     .news-video .img-holder{
         min-height: 110px;
     }
+    .aboutUs .aboutus-fig img{
+    position: relative;
+    top: 50%;
+    transform: translateX(15%);
+}
+.aboutUs .aboutus-fig img{
+    min-height: 80px;
+}
 
 }
 
@@ -234,6 +242,9 @@
         padding: 0 5px;
         border-color: transparent!important;
     }
+     .aboutUs .aboutus-fig img{
+    transform: translateX(2%)
+}
 
     
     
@@ -288,6 +299,12 @@
         top: 70%;
         right: 10%;
     }
+    .aboutUs .aboutus-fig img{
+    transform: translateX(15%)
+}
+.aboutUs .aboutus-fig img{
+    min-height: 100px;
+}
     /* moj deo urdjen u css-u*/
     
 
@@ -335,9 +352,36 @@
 
      /* moj deo urdjen u css-u*/
     .desc-news{
-        top: 75%;
+        top: 68%;
         right: 10%;
     }
+    .desc-news .font{
+        font-size: 16px;
+        letter-spacing: 0.16px;
+        line-height: 18px;
+        max-height: 57px;
+    }
+    .desc-news .font-title a{
+        font-size: 32px;
+        letter-spacing: 0.32px;
+        line-height: 35px;
+        max-height: 48px;
+    }
+    .scheme a{
+    font-size: 17px;
+    letter-spacing: 0.13px;
+    line-height: 18px;
+}
+.scheme .color{
+    color: #BABABA;
+    font-size: 14px;
+}
+.aboutUs .aboutus-fig img{
+    transform: translateX(10%)
+}
+.aboutUs .aboutus-fig img{
+    min-height: 120px;
+}
     /* moj deo urdjen u css-u*/
     footer .social-footer .fa{
         width: 40px;

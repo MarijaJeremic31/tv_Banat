@@ -311,6 +311,9 @@ header .list-1 li:last-of-type a{
 .last-news{
     position: relative;
 }
+.desc-news .font{
+    font-size: 14px;
+}
 .desc-news{
     position: absolute;
     left: 3%;
@@ -330,6 +333,41 @@ header .list-1 li:last-of-type a{
     margin-bottom: 0;
     max-height: 47px;
 }
+.scheme a{
+    font-size: 14px;
+    letter-spacing: 0.13px;
+    line-height: 18px;
+}
+.scheme .color{
+    color: #BABABA;
+    font-size: 11px;
+}
+.scheme .color2{
+    color: #000000;
+    font-weight: bold;        
+}
+.horoscope a{
+   color: black;
+}
+.aboutUs .short-description{
+    font-size: 16px;
+    min-height: 58px;
+    letter-spacing: 0.16px;
+    line-height: 20px;
+}
+.aboutUs .aboutus-fig{
+    margin-top: 103px;
+    margin-bottom: 151px;
+}
+.turist-info .desc-news{
+    top: 80%;
+}
+
+
+
+
+
+
 
 
 /* moj deo urdjen u css-u*/
@@ -359,8 +397,30 @@ padding-left: 40px;
 .weather-fig img{
    position: relative;
    top: 50%;
-   transform: translateY(-50%);
-    
+   transform: translateY(-50%);   
+}
+.weather-page{
+    margin-top: 90px;
+}
+.weather-page .transform{
+    position: relative;
+    transform: translateX(30%);
+}
+.weather-currently .weather-fig img{
+    min-height: 42px;
+}
+.weather-currently div{
+    min-height: 52px;
+    line-height: 30px;
+    letter-spacing: 0.12px;
+}
+.weather-page .temp{
+    line-height: 9px;
+    text-align: center;
+}
+.weather-page .weather-time{
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .pr-title{
     padding-right: 40%;
@@ -368,6 +428,13 @@ padding-left: 40px;
 .prr-title{
     padding-right: 30%;
 }
+.weather-page .temp1{
+    line-height: 29px;
+}
+.weather-page hr{
+    background-color: #2094D1;
+}
+
 /* moj deo urdjen u css-u*/
 
 
