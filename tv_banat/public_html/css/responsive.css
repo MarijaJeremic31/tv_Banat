@@ -108,11 +108,19 @@
     footer .footer-banner img{
         width: 300px;
     }
-
-    .last-news .img-holder{
-        min-height: 380px;
+    aside .category-wrapper .img-holder{
+        min-height: 143px;
     }
-
+    .aboutUs .short-description{
+        min-height: 60px;
+    }
+    .last-news .img-holder{
+        min-height: 313px;
+    }
+    .scheme a{
+        font-size: 14px;
+    }
+    
     .most-read-news .img-holder,
     .category-wrapper .img-holder{
         min-height: 120px;
@@ -134,6 +142,24 @@
 .aboutUs .aboutus-fig img{
     min-height: 80px;
 }
+.short-description{
+    max-height: 46px;
+}
+.weather-page .temp{
+    line-height: 10px;
+    padding: 0px;
+}
+.desc-news .font-title a{
+    font-size: 23px;
+}
+
+.nav-pagination{
+    transform: translateX(70%);
+}
+.animation .lifestyle .short-description{
+    max-height: 48px;
+}
+
 
 }
 
@@ -185,6 +211,9 @@
         text-decoration: none;
         padding: 10px;
         display: block;
+    }
+    .scheme{
+        margin-bottom: 1rem;
     }
 
     footer .footer-banner img{
@@ -245,7 +274,24 @@
      .aboutUs .aboutus-fig img{
     transform: translateX(2%)
 }
-
+.weather{
+padding-left: 30px;
+}
+.nav-pagination{
+    position: relative;
+    transform: translateX(100%);
+}
+.single-news .single-news-title,
+.single-page .single-page-title{
+    font-size: 22px;
+}
+.single-news .short-description{
+    max-height: 63px;
+    
+}
+.news-video .img-holder::after{
+    top: 46%;
+}
     
     
     
@@ -255,15 +301,18 @@
         min-height: 30px;
     }
     /* moj deo urdjen u css-u*/
-    .desc-news{
-        top: 55%;
-        right: 10%;
+    aside .category-wrapper .img-holder{
+        min-height: 120px;
+    }
+    .sportL .img-holder,
+    .newsL .img-holder{
+        min-height: 135px!important;
     }
     /* moj deo urdjen u css-u*/
     
     .most-read-news .img-holder,
     .category-wrapper .img-holder{
-        min-height: 157px;
+        min-height: 121px;
     }
 
     .cities .img-holder,
@@ -296,15 +345,60 @@
     }
     /* moj deo urdjen u css-u*/
     .desc-news{
-        top: 70%;
         right: 10%;
     }
+    .short-description{
+    max-height: 46px;
+}
     .aboutUs .aboutus-fig img{
     transform: translateX(15%)
 }
 .aboutUs .aboutus-fig img{
     min-height: 100px;
 }
+.scheme{
+    margin-bottom: 1.5rem;
+}
+.scheme .color{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.scheme .color2{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.weather{
+padding-left: 40px;
+}
+.nav-pagination{
+    position: relative;
+    transform: translateX(140%);
+}
+.social-single p{
+    transform: translateY(22%);
+}
+.angle{
+    position: absolute;
+    left: 85%;    
+}
+.single-news .single-news-title,
+.single-page .single-page-title{
+    font-size: 26px;
+}
+.news-video .img-holder::after{
+    top: 50%;
+}
+.desc-news .font-title a{
+    font-size: 30px;
+}
+.animation .lifestyle .short-description{
+    max-height: 60px;
+}
+.newsT h3{
+    width: 75%!important;
+}
+
+
     /* moj deo urdjen u css-u*/
     
 
@@ -334,7 +428,10 @@
         min-height: 120px;
     }
     .category-wrapper .img-holder{
-        min-height: 145px;
+        min-height: 129px;
+    }
+    aside .category-wrapper .img-holder{
+        min-height: 113px;
     }
 
     .news-video .img-holder{
@@ -352,7 +449,7 @@
 
      /* moj deo urdjen u css-u*/
     .desc-news{
-        top: 68%;
+        bottom: 5%;
         right: 10%;
     }
     .desc-news .font{
@@ -374,13 +471,56 @@
 }
 .scheme .color{
     color: #BABABA;
-    font-size: 14px;
+    font-size: 11px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 .aboutUs .aboutus-fig img{
     transform: translateX(10%)
 }
 .aboutUs .aboutus-fig img{
     min-height: 120px;
+}
+.single-news .single-news-title,
+.single-page .single-page-title{
+    font-size: 32px;
+    line-height: 35px;
+}
+.single-news .address{
+    font-size: 14px;
+}
+.single-news .short-description{
+    font-size: 16px;
+    max-height: 64px;
+    line-height: 20px;
+}
+.single-news .single-news-text{
+    font-size: 14px;
+    line-height: 18px;
+}
+.single-page .short-description{
+    font-size: 16px;
+    max-height: 100px;
+    line-height: 20px;
+}
+.single-news .social-single{
+    margin-bottom: 90px;
+}
+
+.social-single p{
+    font-size: 12px;
+}
+.social-single a{
+    font-size: 12px;
+}
+.angle{
+    position: absolute;
+    left: 88%;
+    font-size: 27px;  
+}
+.news-title,
+.news-title a{
+    font-size: 17px;
 }
     /* moj deo urdjen u css-u*/
     footer .social-footer .fa{
@@ -401,19 +541,25 @@
     .most-read-news .img-holder{
         min-height: 145px;
     }
-   /* .category-wrapper .img-holder{
-        min-height: 178px;
-    }*/
+    .category-wrapper .img-holder{
+        min-height: 155px;
+    }
     .news-video .img-holder{
         min-height: 174px;
     }
 .last-news .news-title,
 .last-news .news-title a{
     font-size: 32px;
+    line-height: 46px;
 }
 .short-description{
-    font-size: 13px;
     max-height: 45px
+}
+.nav-pagination{
+    position: relative;
+    transform: translateX(200%);
+
+
 }
 
 }
